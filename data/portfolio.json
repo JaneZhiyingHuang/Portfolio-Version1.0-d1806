@@ -29,22 +29,22 @@
       {
         "id": "1",
         "title": "PetNotes",
-        "description": "Mobile Application",
-        "imageSrc": "/images/PetNotes-Cover.jpeg",
+        "description": "Mobile Application Design  & Development",
+        "imageSrc": "/images/PetNotes-Cover-Portfolio.png",
         "url": "https://github.com/JaneZhiyingHuang/PetNotes-Android-Application"
       },
       {
         "id": "2",
         "title": "ReelLounge",
-        "description": "Web Application",
-        "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "description": "Web Application Design & Development",
+        "imageSrc": "/images/ReelLounge-Cover-Fin-Fin.png",
         "url": "https://github.com/JaneZhiyingHuang/ReelLounge-Movie-Application"
       },
       {
         "id": "3",
         "title": "HighFive!",
-        "description": "Website",
-        "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "description": "Website Development",
+        "imageSrc": "/images/HighFive!-Cover.png",
         "url": "https://github.com/JaneZhiyingHuang/HighFive--International-Student-Forum"
       }
     ],
@@ -62,12 +62,12 @@
       {
         "id": "3",
         "title": "UI/UX Design",
-        "description": "Figma, Adobe XD, Wireframing, Prototyping"
+        "description": "Figma, Photoshop, Wireframing, Prototyping"
       },
       {
         "id": "4",
         "title": "Project Management",
-        "description": "Git Version Control,Agile Methodologies, Scrum, Team Collaboration"
+        "description": "Git Version Control, Agile Methodologies, Scrum, Team Collaboration"
       }
     ],
     "aboutpara": " I am a 3rd-year IT student in Finland, specializing in full-stack software development and UI/UX design, with an open attitude toward learning new knowledge. My strengths include a multidisciplinary background in coding and design, well-organized and effective communication skills as a team collaborator, quick learning with a strong GPA, and a flexible schedule due to completing extra credits.",
@@ -85,7 +85,7 @@
         {
           "id": "2",
           "dates": "Oct 2024 - Dec 2024",
-          "type": "React.js / JavaScripts / CSS / HTML / SQL / Node.js / Figma / Scurm",
+          "type": "React.js / JavaScripts / CSS / HTML / Node.js / SQL  / Figma / Scurm",
           "position": "ReelLounge - Web Application",
           "bullets": "Developed a full-stack movie app for discovering movies. viewing details. and rating films., Implemented interactive features such as user reviews. fans group and favorite lists.,Integrated RESTful APIs for movie data and optimized performance for fast interactions."
         },
