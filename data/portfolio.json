@@ -1,6 +1,6 @@
 {
     "name": "Jane Huang",
-    "headerTaglineOne": "Hello 👋",
+    "headerTaglineOne": "Hello! 👋",
     "headerTaglineTwo": "I'm Jane Huang - ",
     "headerTaglineThree": "Software devloper & ",
     "headerTaglineFour": " UI/UX designer.",
@@ -72,8 +72,8 @@
     ],
     "aboutpara": " I am a 3rd-year IT student in Finland, specializing in full-stack software development and UI/UX design, with an open attitude toward learning new knowledge. My strengths include a multidisciplinary background in coding and design, well-organized and effective communication skills as a team collaborator, quick learning with a strong GPA, and a flexible schedule due to completing extra credits.",
     "resume": {
-      "tagline": "👋  I'm a software engineer, UI/UX designer.",
-      "description": " Passionate about creating user-friendly digital experiences through coding and design. Always eager to learn new technologies and improve my skills.",
+      "tagline": "👋  I'm a software engineer and UI/UX designer.",
+      "description": " Curious , well-oraganized , team player , quick learner",
       "experiences": [
         {
           "id": "1",
@@ -100,11 +100,11 @@
       "education": {
         "universityName": "Oulu University of Applied Sciences",
         "universityDate": "2023-2027",
-        "universityPara": "Bachelor's Degree in Information Technology, Specializing in Software Development.  GPA 4.93/5.0"
+        "universityPara": "Bachelor's Degree in Information Technology, Specializing in Software Development.  GPA 4.93 / 5.0"
       },
       "languages": ["Javascript","Kotlin", "HTML5", "CSS","TypeScript", "Python", "Java"],
-      "frameworks": ["React.js", "Typescript", "Node.Js", "Express"],
-      "others": ["MySQL","PostGreSQL","Firebase","Figma", "Photoshop", "Scrum", "Git"," Agile Methodologies"]
+      "frameworks": ["React.js", "Typescript", "Node.Js", "Express","MySQL","PostGreSQL","Firebase"],
+      "others": ["Figma", "Photoshop", "Scrum", "Git"," Agile"]
     }
   }
   
