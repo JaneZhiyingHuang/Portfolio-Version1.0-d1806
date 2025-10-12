@@ -2,8 +2,8 @@
     "name": "Jane Huang",
     "headerTaglineOne": "Hello 👋",
     "headerTaglineTwo": "I'm Jane Huang - ",
-    "headerTaglineThree": "Full-stack software devloper & UI/UX designer",
-    "headerTaglineFour": " in Finland.",
+    "headerTaglineThree": "Software devloper & ",
+    "headerTaglineFour": " UI/UX designer.",
     "showCursor": true,
     "showBlog": false,
     "darkMode": true,
@@ -52,12 +52,12 @@
       {
         "id": "1",
         "title": "Frontend Development",
-        "description": "JavaScript, React.js, HTML, CSS, TypeScript, Next.js, Java"
+        "description": "JavaScript, React.js, HTML, CSS, Kotlin, TypeScript, Next.js, Java"
       },
       {
         "id": "2",
         "title": "Backend Development",
-        "description": "Node.js, Express, PostGreSQL, SQL, RESTful APIs, Python"
+        "description": "Node.js, Express, PostgreSQL, MySQL, RESTful APIs, Python, Firebase"
       },
       {
         "id": "3",
@@ -70,7 +70,7 @@
         "description": "Git Version Control,Agile Methodologies, Scrum, Team Collaboration"
       }
     ],
-    "aboutpara": "A 3rd-year IT student specializing in full-stack software development and UI design, with an open attitude toward learning new knowledge. My strengths include a multidisciplinary background in coding and design, well-organized and effective communication skills as a team collaborator, quick learning with a strong GPA, and a flexible schedule due to completing extra credits.",
+    "aboutpara": " I am a 3rd-year IT student in Finland, specializing in full-stack software development and UI/UX design, with an open attitude toward learning new knowledge. My strengths include a multidisciplinary background in coding and design, well-organized and effective communication skills as a team collaborator, quick learning with a strong GPA, and a flexible schedule due to completing extra credits.",
     "resume": {
       "tagline": "👋  I'm a software engineer, UI/UX designer.",
       "description": " Passionate about creating user-friendly digital experiences through coding and design. Always eager to learn new technologies and improve my skills.",
