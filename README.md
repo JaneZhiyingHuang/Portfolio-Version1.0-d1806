@@ -8,7 +8,7 @@
 
 
 ### 💡 Overview 
-Jane Huang Portfolio is my personal website showcasing my software development and UI/UX design projects.
+JH. Portfolio is my personal website showcasing my software development and UI/UX design projects.
 It combines creativity and technology — built to highlight both code and visual design with a clean and modern aesthetic.
 
 This portfolio also serves as my professional profile, including projects, skills, and contact information.
@@ -32,13 +32,14 @@ This portfolio also serves as my professional profile, including projects, skill
 
 ### 🧑‍💻 About Me
 
-- Jane Huang 
+- Jane （Zhiying） Huang 
 - 🎓 IT Student @ Oulu University of Applied Sciences (OAMK), Finland
 - 💌 jane.z.h@outlook.com
 
 - 🌐 [Portfolio](https://janehuang.netlify.app/)
 
-
+### 🙏 Thanks
+- Thanks to the beautiful view outside my window and my cat Mimi 🐱 for keeping me company while I code.
 
 
 
