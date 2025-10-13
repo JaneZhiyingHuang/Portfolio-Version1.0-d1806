@@ -2,8 +2,8 @@
     "name": "Jane Huang",
     "headerTaglineOne": "Hello! 👋",
     "headerTaglineTwo": "I'm Jane Huang - ",
-    "headerTaglineThree": "Software devloper & ",
-    "headerTaglineFour": " UI/UX designer.",
+    "headerTaglineThree": "devloper & designer",
+    "headerTaglineFour": " based in Oulu ，Finland.",
     "showCursor": true,
     "showBlog": false,
     "darkMode": true,
@@ -72,8 +72,8 @@
     ],
     "aboutpara": " I am a 3rd-year IT student in Finland, specializing in full-stack software development and UI/UX design, with an open attitude toward learning new knowledge. My strengths include a multidisciplinary background in coding and design, well-organized and effective communication skills as a team collaborator, quick learning with a strong GPA, and a flexible schedule due to completing extra credits.",
     "resume": {
-      "tagline": "👋  I'm a software engineer and UI/UX designer.",
-      "description": " curious , well-oraganized , team player , quick learner",
+      "tagline": "👋  I'm a software engineer and UI/UX designer based in Oulu,Finland.",
+      "description": " curious / well-oraganized / team player / quick learner",
       "experiences": [
         {
           "id": "1",
@@ -97,11 +97,19 @@
           "bullets": ["Developed a social platform for international students to connect and share experiences.Implemented features like user authentication, post creation, and commenting."]
         }
       ],
-      "education": {
+      "education":[ {
+        "id": "1",
         "universityName": "Oulu University of Applied Sciences",
         "universityDate": "2023-2027",
-        "universityPara": "Bachelor's Degree in Information Technology, Specializing in Software Development.  GPA 4.93 / 5.0"
+        "universityPara": "Bachelor's Degree in Information Technology, Specializing in Software Development.  GPA 4.95 / 5.0"
       },
+      {
+        "id": "2",
+        "universityName": "Sichuan Fine Arts Institute",
+        "universityDate": "2018-2022",
+        "universityPara": "Bachelor's Degree in Technology and Art, Specializing in Design."
+      }
+    ],
       "languages": ["Javascript","Kotlin", "HTML5", "CSS","TypeScript", "Python", "Java"],
       "frameworks": ["React.js", "Typescript", "Node.Js", "Express","MySQL","PostGreSQL","Firebase"],
       "others": ["Figma", "Photoshop", "Scrum", "Git"," Agile"]

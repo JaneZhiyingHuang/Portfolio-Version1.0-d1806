@@ -5,12 +5,12 @@ const ProjectResume = ({ dates, type, position, bullets }) => {
     Array.isArray(bullets) ? bullets : bullets.split(","));  
   return (
     <div className="mt-5 w-full flex mob:flex-col desktop:flex-row justify-between">
-      <div className="text-lg w-2/5">
-        <h2>{dates}</h2>
-        <h3 className="text-sm opacity-50">{type}</h3>
+      <div className="text-sm w-2/5 mob:w-full">
+        <h2 className="opacity-100 mob: text-sm opacity-70">{dates}</h2>
+        <h3 className="text-sm opacity-50 mob:text-sm opacity-70">{type}</h3>
       </div>
-      <div className="w-3/5">
-        <h2 className="text-lg font-bold">{position}</h2>
+      <div className="w-3/5 mob:w-full">
+        <h2 className="text-lg font-bold mob:text-lg font-normal">{position}</h2>
         {bulletsLocal && bulletsLocal.length > 0 && (
           <ul className="list-disc">
             {bulletsLocal.map((bullet, index) => (

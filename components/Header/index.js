@@ -78,7 +78,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:jane.z.h@outlook.com")
+                        router.push("/resume")
                       }
                     >
                       Resume
