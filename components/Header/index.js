@@ -17,6 +17,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
     setMounted(true);
   }, []);
 
+  if (!mounted) return null;
   return (
     <>
       <Popover className="block tablet:hidden mt-5">
@@ -27,7 +28,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/")}
                 className="font-medium p-2 laptop:p-0 link"
               >
-               JH.
+                JH.
               </h1>
 
               <div className="flex items-center">
@@ -39,10 +40,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   >
                     <img
                       className="h-6"
-                      src={`/images/${
-                        theme === "dark" ? "moon.svg" : "sun.svg"
-                      }`}
-                    ></img>
+                      src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                      alt="theme toggle"
+                    />
                   </Button>
                 )}
 
@@ -58,7 +58,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
-                  ></img>
+                    alt="menu toggle"
+                  />
                 </Popover.Button>
               </div>
             </div>
@@ -118,32 +119,27 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           </>
         )}
       </Popover>
+
       <div
         className={`mt-10 hidden flex-row items-center justify-between sticky top-0 z-10 tablet:flex rounded-xl shadow-sm p-2
-          ${mounted
-            ? theme === "light"
-              ? "backdrop-blur-md bg-white/25 border border-white/5"
-              : "backdrop-blur-md bg-slate-800/25 border border-slate-700/5"
-            : "" 
+          ${theme === "light"
+            ? "backdrop-blur-md bg-white/25 border border-white/5"
+            : "backdrop-blur-md bg-slate-800/25 border border-slate-700/5"
           }
           dark:text-white
         `}
       >
-
-
         <h1
           onClick={() => router.push("/")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-4"
         >
           JH.
         </h1>
+
         {!isBlog ? (
           <div className="flex">
             <Button onClick={handleWorkScroll}>Work</Button>
             <Button onClick={handleAboutScroll}>About</Button>
-            {/* {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )} */}
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
@@ -156,23 +152,22 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             <Button onClick={() => window.open("mailto:jane.z.h@outlook.com")}>
               Contact
             </Button>
-            {mounted && theme && data.darkMode && (
+
+            {data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
+                  alt="theme toggle"
+                />
               </Button>
             )}
           </div>
         ) : (
           <div className="flex">
             <Button onClick={() => router.push("/")}>Home</Button>
-            {/* {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )} */}
             {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
@@ -186,14 +181,15 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               Contact
             </Button>
 
-            {mounted && theme && data.darkMode && (
+            {data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
+                  alt="theme toggle"
+                />
               </Button>
             )}
           </div>
