@@ -52,12 +52,12 @@
       {
         "id": "1",
         "title": "Frontend Development",
-        "description": "JavaScript, React.js, HTML, CSS, Kotlin, TypeScript, Next.js, Java"
+        "description": "JavaScript, React.js, HTML, CSS, Kotlin, TypeScript, Java"
       },
       {
         "id": "2",
         "title": "Backend Development",
-        "description": "Node.js, Express, PostgreSQL, MySQL, RESTful APIs, Python, Firebase"
+        "description": "Node.js, Express, PostgreSQL, MySQL, RESTful APIs, Python, Firebase, PHP, C#"
       },
       {
         "id": "3",
@@ -85,7 +85,7 @@
         {
           "id": "2",
           "dates": "Oct 2024 - Dec 2024",
-          "type": "React.js / JavaScripts / CSS / HTML / Node.js / SQL  / Figma / Scurm",
+          "type": "React.js / JavaScripts / CSS / HTML / Node.js / SQL  / Figma / Scrum",
           "position": "ReelLounge - Web Application",
           "bullets": "Developed a full-stack movie app for discovering movies. viewing details. and rating films., Implemented interactive features such as user reviews. fans group and favorite lists.,Integrated RESTful APIs for movie data and optimized performance for fast interactions."
         },
@@ -111,7 +111,7 @@
       }
     ],
       "languages": ["Javascript","Kotlin", "HTML5", "CSS","TypeScript", "Python", "Java"],
-      "frameworks": ["React.js", "Typescript", "Node.Js", "Express","MySQL","PostGreSQL","Firebase"],
+      "frameworks": ["React.js", "Typescript", "Node.Js", "Express","MySQL","PostgreSQL","Firebase"],
       "others": ["Figma", "Photoshop", "Scrum", "Git"," Agile"]
     }
   }
