@@ -47,7 +47,16 @@
         "imageSrc": "/images/HighFive!-Cover.png",
         "url": "https://github.com/JaneZhiyingHuang/HighFive--International-Student-Forum"
       }
+      ,
+      {
+        "id": "4",
+        "title": "VISIOK",
+        "description": "VR Robot Palletizing Development",
+        "imageSrc": "/images/image.png",
+        "url": "https://github.com/JaneZhiyingHuang/VISIOK-Robot-Palletizer-Unity"
+      }
     ],
+    
     "services": [
       {
         "id": "1",
